@@ -9,5 +9,15 @@
 *.docx
 *.txt
 *.json
+<<<<<<< HEAD
 *.xml
 LIN_XINLEI_Short_Resume (english version).pdf
+=======
+<<<<<<< HEAD
+*.yml
+=======
+*.xml
+LIN_XINLEI_Short_Resume (english version).pdf
+>>>>>>> b78d37c (ne changes)
+constants.py
+>>>>>>> 4669549 (new changes)
