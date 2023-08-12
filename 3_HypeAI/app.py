@@ -16,11 +16,15 @@ import random
 # Summarizer
 # Chat functionality
 uploaded_file = st.file_uploader("Upload a PDF")
+<<<<<<< HEAD
 btn = False
+=======
+>>>>>>> 4669549 (new changes)
 if uploaded_file:
     st.header("Summarization")
     summary = "This text explains... demo text needs to be fixed" # Write Summarization here
     summary_placeholder = st.empty() 
+<<<<<<< HEAD
     full_response = ""
     for chunk in summary.split():
         full_response += chunk + " "
@@ -33,6 +37,16 @@ if uploaded_file:
 
 if btn:
 # Load messages from session storage
+=======
+    # full_response = ""
+    # for chunk in summary.split():
+    #     full_response += chunk + " "
+    #     time.sleep(0.1)
+    #     # Add a blinking cursor to simulate typing
+    #     summary_placeholder.markdown(full_response + "▌")
+    summary_placeholder.markdown(summary)
+    # Load messages from session storage
+>>>>>>> 4669549 (new changes)
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
